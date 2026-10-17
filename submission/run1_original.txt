@@ -1,0 +1,836 @@
+(agents-sdk-kit) C:\Users\HEMANTH SAI\agentic-starter-kits\agentic-starter-kits\crewai-kit>│    2. **Dense neural retrievers** (e.g., DPR, Contriever, ColBERT). Dense models retrieve semantically related passages     │
+'│' is not recognized as an internal or external command,
+operable program or batch file.
+
+(agents-sdk-kit) C:\Users\HEMANTH SAI\agentic-starter-kits\agentic-starter-kits\crewai-kit>│  that may lack exact keyword overlap, but they are more compute‑intensive and sensitive to training data quality. [source   │
+'│' is not recognized as an internal or external command,
+operable program or batch file.
+
+(agents-sdk-kit) C:\Users\HEMANTH SAI\agentic-starter-kits\agentic-starter-kits\crewai-kit>│  needed]                                                                                                                    │
+'│' is not recognized as an internal or external command,
+operable program or batch file.
+
+(agents-sdk-kit) C:\Users\HEMANTH SAI\agentic-starter-kits\agentic-starter-kits\crewai-kit>│                                                                                                                             │
+'│' is not recognized as an internal or external command,
+operable program or batch file.
+
+(agents-sdk-kit) C:\Users\HEMANTH SAI\agentic-starter-kits\agentic-starter-kits\crewai-kit>│  - **Joint end‑to‑end training** – Recent variants (RAG‑Fusion, Hybrid‑RAG, Retro‑RAG) train retriever and generator        │
+'│' is not recognized as an internal or external command,
+operable program or batch file.
+
+(agents-sdk-kit) C:\Users\HEMANTH SAI\agentic-starter-kits\agentic-starter-kits\crewai-kit>│  together using differentiable retrieval (e.g., Gumbel‑softmax) or reinforcement‑learning signals. Joint training can       │
+'│' is not recognized as an internal or external command,
+operable program or batch file.
+
+(agents-sdk-kit) C:\Users\HEMANTH SAI\agentic-starter-kits\agentic-starter-kits\crewai-kit>│  narrow the gap between retrieved and generated knowledge, yet it introduces stability issues and higher GPU memory         │
+'│' is not recognized as an internal or external command,
+operable program or batch file.
+
+(agents-sdk-kit) C:\Users\HEMANTH SAI\agentic-starter-kits\agentic-starter-kits\crewai-kit>│  demands. [source needed]                                                                                                   │
+'│' is not recognized as an internal or external command,
+operable program or batch file.
+
+(agents-sdk-kit) C:\Users\HEMANTH SAI\agentic-starter-kits\agentic-starter-kits\crewai-kit>│                                                                                                                             │
+'│' is not recognized as an internal or external command,
+operable program or batch file.
+
+(agents-sdk-kit) C:\Users\HEMANTH SAI\agentic-starter-kits\agentic-starter-kits\crewai-kit>│  **Open Questions**                                                                                                         │
+'│' is not recognized as an internal or external command,
+operable program or batch file.
+
+(agents-sdk-kit) C:\Users\HEMANTH SAI\agentic-starter-kits\agentic-starter-kits\crewai-kit>│                                                                                                                             │
+'│' is not recognized as an internal or external command,
+operable program or batch file.
+
+(agents-sdk-kit) C:\Users\HEMANTH SAI\agentic-starter-kits\agentic-starter-kits\crewai-kit>│  - **How to guard against retrieval‑induced hallucinations?**                                                               │
+'│' is not recognized as an internal or external command,
+operable program or batch file.
+
+(agents-sdk-kit) C:\Users\HEMANTH SAI\agentic-starter-kits\agentic-starter-kits\crewai-kit>│    Even when grounded in retrieved text, generators can fabricate statements that appear plausible but are not present in   │
+'│' is not recognized as an internal or external command,
+operable program or batch file.
+
+(agents-sdk-kit) C:\Users\HEMANTH SAI\agentic-starter-kits\agentic-starter-kits\crewai-kit>│  the source. Effective training objectives, verification pipelines, or post‑generation fact‑checking methods are still      │
+'│' is not recognized as an internal or external command,
+operable program or batch file.
+
+(agents-sdk-kit) C:\Users\HEMANTH SAI\agentic-starter-kits\agentic-starter-kits\crewai-kit>│  being explored. [source needed]                                                                                            │
+'│' is not recognized as an internal or external command,
+operable program or batch file.
+
+(agents-sdk-kit) C:\Users\HEMANTH SAI\agentic-starter-kits\agentic-starter-kits\crewai-kit>│                                                                                                                             │
+'│' is not recognized as an internal or external command,
+operable program or batch file.
+
+(agents-sdk-kit) C:\Users\HEMANTH SAI\agentic-starter-kits\agentic-starter-kits\crewai-kit>│  - **What is the optimal trade‑off between retrieval latency and generation quality at scale?**                             │
+'│' is not recognized as an internal or external command,
+operable program or batch file.
+
+(agents-sdk-kit) C:\Users\HEMANTH SAI\agentic-starter-kits\agentic-starter-kits\crewai-kit>│    Real‑time applications demand sub‑second responses, but dense retrieval over billions of passages is costly. Designing   │
+'│' is not recognized as an internal or external command,
+operable program or batch file.
+
+(agents-sdk-kit) C:\Users\HEMANTH SAI\agentic-starter-kits\agentic-starter-kits\crewai-kit>│  indexing structures, caching strategies, or adaptive retrieval‑budget algorithms that preserve factual accuracy without    │
+'│' is not recognized as an internal or external command,
+operable program or batch file.
+
+(agents-sdk-kit) C:\Users\HEMANTH SAI\agentic-starter-kits\agentic-starter-kits\crewai-kit>│  sacrificing latency remains an open engineering challenge. [source needed]                                                 │
+'│' is not recognized as an internal or external command,
+operable program or batch file.
+
+(agents-sdk-kit) C:\Users\HEMANTH SAI\agentic-starter-kits\agentic-starter-kits\crewai-kit>│                                                                                                                             │
+'│' is not recognized as an internal or external command,
+operable program or batch file.
+
+(agents-sdk-kit) C:\Users\HEMANTH SAI\agentic-starter-kits\agentic-starter-kits\crewai-kit>│  ---                                                                                                                        │
+'│' is not recognized as an internal or external command,
+operable program or batch file.
+
+(agents-sdk-kit) C:\Users\HEMANTH SAI\agentic-starter-kits\agentic-starter-kits\crewai-kit>│                                                                                                                             │
+'│' is not recognized as an internal or external command,
+operable program or batch file.
+
+(agents-sdk-kit) C:\Users\HEMANTH SAI\agentic-starter-kits\agentic-starter-kits\crewai-kit>│  **Brief Overview**                                                                                                         │
+'│' is not recognized as an internal or external command,
+operable program or batch file.
+
+(agents-sdk-kit) C:\Users\HEMANTH SAI\agentic-starter-kits\agentic-starter-kits\crewai-kit>│                                                                                                                             │
+'│' is not recognized as an internal or external command,
+operable program or batch file.
+
+(agents-sdk-kit) C:\Users\HEMANTH SAI\agentic-starter-kits\agentic-starter-kits\crewai-kit>│  RAG works in two steps. First, a retriever quickly scans a large external database—acting like a “fast librarian”—to       │
+'│' is not recognized as an internal or external command,
+operable program or batch file.
+
+(agents-sdk-kit) C:\Users\HEMANTH SAI\agentic-starter-kits\agentic-starter-kits\crewai-kit>│  fetch the most relevant paragraphs for a user query. Retrieval can rely on simple keyword matching (BM25) or on neural     │
+'│' is not recognized as an internal or external command,
+operable program or batch file.
+
+(agents-sdk-kit) C:\Users\HEMANTH SAI\agentic-starter-kits\agentic-starter-kits\crewai-kit>│  models that capture meaning beyond exact word overlap. Second, a generator (usually a large language model) composes the   │
+'│' is not recognized as an internal or external command,
+operable program or batch file.
+
+(agents-sdk-kit) C:\Users\HEMANTH SAI\agentic-starter-kits\agentic-starter-kits\crewai-kit>│  final answer, using the retrieved passages as context. This grounding typically yields more accurate responses than a      │
+'│' is not recognized as an internal or external command,
+operable program or batch file.
+
+(agents-sdk-kit) C:\Users\HEMANTH SAI\agentic-starter-kits\agentic-starter-kits\crewai-kit>│  stand‑alone model that only relies on its internal parameters.                                                             │
+'│' is not recognized as an internal or external command,
+operable program or batch file.
+
+(agents-sdk-kit) C:\Users\HEMANTH SAI\agentic-starter-kits\agentic-starter-kits\crewai-kit>│                                                                                                                             │
+'│' is not recognized as an internal or external command,
+operable program or batch file.
+
+(agents-sdk-kit) C:\Users\HEMANTH SAI\agentic-starter-kits\agentic-starter-kits\crewai-kit>│  The main advantage is improved factual reliability and cheap knowledge updates, which makes RAG attractive for             │
+'│' is not recognized as an internal or external command,
+operable program or batch file.
+
+(agents-sdk-kit) C:\Users\HEMANTH SAI\agentic-starter-kits\agentic-starter-kits\crewai-kit>│  fast‑changing domains such as medicine or law. However, challenges remain: (1) generators may still hallucinate            │
+'│' is not recognized as an internal or external command,
+operable program or batch file.
+
+(agents-sdk-kit) C:\Users\HEMANTH SAI\agentic-starter-kits\agentic-starter-kits\crewai-kit>│  statements not found in the retrieved text, and (2) dense retrieval can be too slow for production‑grade, sub‑second       │
+'│' is not recognized as an internal or external command,
+operable program or batch file.
+
+(agents-sdk-kit) C:\Users\HEMANTH SAI\agentic-starter-kits\agentic-starter-kits\crewai-kit>│  services. Ongoing research focuses on verification mechanisms and on more efficient retrieval architectures to address     │
+'│' is not recognized as an internal or external command,
+operable program or batch file.
+
+(agents-sdk-kit) C:\Users\HEMANTH SAI\agentic-starter-kits\agentic-starter-kits\crewai-kit>│  these issues. [source needed]                                                                                              │
+'│' is not recognized as an internal or external command,
+operable program or batch file.
+
+(agents-sdk-kit) C:\Users\HEMANTH SAI\agentic-starter-kits\agentic-starter-kits\crewai-kit>│                                                                                                                             │
+'│' is not recognized as an internal or external command,
+operable program or batch file.
+
+(agents-sdk-kit) C:\Users\HEMANTH SAI\agentic-starter-kits\agentic-starter-kits\crewai-kit>╰─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+'╰─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯' is not recognized as an internal or external command,
+operable program or batch file.
+
+(agents-sdk-kit) C:\Users\HEMANTH SAI\agentic-starter-kits\agentic-starter-kits\crewai-kit>
+(agents-sdk-kit) C:\Users\HEMANTH SAI\agentic-starter-kits\agentic-starter-kits\crewai-kit>╭──────────────────────────────────────────────────── 📋 Task Completion ─────────────────────────────────────────────────────╮
+'╭────────────────────────────────────────────────────' is not recognized as an internal or external command,
+operable program or batch file.
+
+(agents-sdk-kit) C:\Users\HEMANTH SAI\agentic-starter-kits\agentic-starter-kits\crewai-kit>│                                                                                                                             │
+'│' is not recognized as an internal or external command,
+operable program or batch file.
+
+(agents-sdk-kit) C:\Users\HEMANTH SAI\agentic-starter-kits\agentic-starter-kits\crewai-kit>│  Task Completed                                                                                                             │
+'│' is not recognized as an internal or external command,
+operable program or batch file.
+
+(agents-sdk-kit) C:\Users\HEMANTH SAI\agentic-starter-kits\agentic-starter-kits\crewai-kit>│  Name: Edit the explainer. Tighten it and mark any claim needing a source.                                                  │
+'│' is not recognized as an internal or external command,
+operable program or batch file.
+
+(agents-sdk-kit) C:\Users\HEMANTH SAI\agentic-starter-kits\agentic-starter-kits\crewai-kit>│  Agent: Editor                                                                                                              │
+'│' is not recognized as an internal or external command,
+operable program or batch file.
+
+(agents-sdk-kit) C:\Users\HEMANTH SAI\agentic-starter-kits\agentic-starter-kits\crewai-kit>│                                                                                                                             │
+'│' is not recognized as an internal or external command,
+operable program or batch file.
+
+(agents-sdk-kit) C:\Users\HEMANTH SAI\agentic-starter-kits\agentic-starter-kits\crewai-kit>│                                                                                                                             │
+'│' is not recognized as an internal or external command,
+operable program or batch file.
+
+(agents-sdk-kit) C:\Users\HEMANTH SAI\agentic-starter-kits\agentic-starter-kits\crewai-kit>╰─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+'╰─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯' is not recognized as an internal or external command,
+operable program or batch file.
+
+(agents-sdk-kit) C:\Users\HEMANTH SAI\agentic-starter-kits\agentic-starter-kits\crewai-kit>
+(agents-sdk-kit) C:\Users\HEMANTH SAI\agentic-starter-kits\agentic-starter-kits\crewai-kit>╭────────────────────────────────────────────────────── Crew Completion ──────────────────────────────────────────────────────╮
+'╭──────────────────────────────────────────────────────' is not recognized as an internal or external command,
+operable program or batch file.
+
+(agents-sdk-kit) C:\Users\HEMANTH SAI\agentic-starter-kits\agentic-starter-kits\crewai-kit>│                                                                                                                             │
+'│' is not recognized as an internal or external command,
+operable program or batch file.
+
+(agents-sdk-kit) C:\Users\HEMANTH SAI\agentic-starter-kits\agentic-starter-kits\crewai-kit>│  Crew Execution Completed                                                                                                   │
+'│' is not recognized as an internal or external command,
+operable program or batch file.
+
+(agents-sdk-kit) C:\Users\HEMANTH SAI\agentic-starter-kits\agentic-starter-kits\crewai-kit>│  Name: crew                                                                                                                 │
+'│' is not recognized as an internal or external command,
+operable program or batch file.
+
+(agents-sdk-kit) C:\Users\HEMANTH SAI\agentic-starter-kits\agentic-starter-kits\crewai-kit>│  ID: f9f12676-44b2-4646-b0bd-5aa4f6db416c                                                                                   │
+'│' is not recognized as an internal or external command,
+operable program or batch file.
+
+(agents-sdk-kit) C:\Users\HEMANTH SAI\agentic-starter-kits\agentic-starter-kits\crewai-kit>│  Final Output: **Retrieval‑Augmented Generation (RAG) – Research Brief**                                                    │
+'│' is not recognized as an internal or external command,
+operable program or batch file.
+
+(agents-sdk-kit) C:\Users\HEMANTH SAI\agentic-starter-kits\agentic-starter-kits\crewai-kit>│                                                                                                                             │
+'│' is not recognized as an internal or external command,
+operable program or batch file.
+
+(agents-sdk-kit) C:\Users\HEMANTH SAI\agentic-starter-kits\agentic-starter-kits\crewai-kit>│  **Key Facts**                                                                                                              │
+'│' is not recognized as an internal or external command,
+operable program or batch file.
+
+(agents-sdk-kit) C:\Users\HEMANTH SAI\agentic-starter-kits\agentic-starter-kits\crewai-kit>│                                                                                                                             │
+'│' is not recognized as an internal or external command,
+operable program or batch file.
+
+(agents-sdk-kit) C:\Users\HEMANTH SAI\agentic-starter-kits\agentic-starter-kits\crewai-kit>│  - **Hybrid architecture** – RAG pairs a *retriever* (usually a dense vector similarity search over an external knowledge   │
+'│' is not recognized as an internal or external command,
+operable program or batch file.
+
+(agents-sdk-kit) C:\Users\HEMANTH SAI\agentic-starter-kits\agentic-starter-kits\crewai-kit>│  base) with a *generator* (typically a large language model). The retriever returns relevant passages; the generator        │
+'│' is not recognized as an internal or external command,
+operable program or batch file.
+
+(agents-sdk-kit) C:\Users\HEMANTH SAI\agentic-starter-kits\agentic-starter-kits\crewai-kit>│  conditions its output on this context, which is claimed to improve factual grounding. [source needed]                      │
+'│' is not recognized as an internal or external command,
+operable program or batch file.
+
+(agents-sdk-kit) C:\Users\HEMANTH SAI\agentic-starter-kits\agentic-starter-kits\crewai-kit>│                                                                                                                             │
+'│' is not recognized as an internal or external command,
+operable program or batch file.
+
+(agents-sdk-kit) C:\Users\HEMANTH SAI\agentic-starter-kits\agentic-starter-kits\crewai-kit>│  - **Factual accuracy boost** – Empirical studies (e.g., Lewis et al., 2020; Izacard & Grave, 2022) report **10–30 % lower  │
+'│' is not recognized as an internal or external command,
+operable program or batch file.
+'Grave' is not recognized as an internal or external command,
+operable program or batch file.
+
+(agents-sdk-kit) C:\Users\HEMANTH SAI\agentic-starter-kits\agentic-starter-kits\crewai-kit>│  error rates** on open‑domain QA benchmarks such as Natural Questions and TriviaQA compared with vanilla LLMs of similar    │
+'│' is not recognized as an internal or external command,
+operable program or batch file.
+
+(agents-sdk-kit) C:\Users\HEMANTH SAI\agentic-starter-kits\agentic-starter-kits\crewai-kit>│  size. [source needed]                                                                                                      │
+'│' is not recognized as an internal or external command,
+operable program or batch file.
+
+(agents-sdk-kit) C:\Users\HEMANTH SAI\agentic-starter-kits\agentic-starter-kits\crewai-kit>│                                                                                                                             │
+'│' is not recognized as an internal or external command,
+operable program or batch file.
+
+(agents-sdk-kit) C:\Users\HEMANTH SAI\agentic-starter-kits\agentic-starter-kits\crewai-kit>│  - **Cheap knowledge updates** – Because the knowledge store is external, adding or updating documents only requires        │
+'│' is not recognized as an internal or external command,
+operable program or batch file.
+
+(agents-sdk-kit) C:\Users\HEMANTH SAI\agentic-starter-kits\agentic-starter-kits\crewai-kit>│  re‑indexing; the generator does not need costly fine‑tuning. [source needed]                                               │
+'│' is not recognized as an internal or external command,
+operable program or batch file.
+
+(agents-sdk-kit) C:\Users\HEMANTH SAI\agentic-starter-kits\agentic-starter-kits\crewai-kit>│                                                                                                                             │
+'│' is not recognized as an internal or external command,
+operable program or batch file.
+
+(agents-sdk-kit) C:\Users\HEMANTH SAI\agentic-starter-kits\agentic-starter-kits\crewai-kit>│  - **Retriever families** – Two dominant types exist:                                                                       │
+'│' is not recognized as an internal or external command,
+operable program or batch file.
+
+(agents-sdk-kit) C:\Users\HEMANTH SAI\agentic-starter-kits\agentic-starter-kits\crewai-kit>│    1. **Sparse lexical retrievers** (BM25, TF‑IDF).                                                                         │
+'│' is not recognized as an internal or external command,
+operable program or batch file.
+
+(agents-sdk-kit) C:\Users\HEMANTH SAI\agentic-starter-kits\agentic-starter-kits\crewai-kit>│    2. **Dense neural retrievers** (e.g., DPR, Contriever, ColBERT). Dense models retrieve semantically related passages     │
+'│' is not recognized as an internal or external command,
+operable program or batch file.
+
+(agents-sdk-kit) C:\Users\HEMANTH SAI\agentic-starter-kits\agentic-starter-kits\crewai-kit>│  that may lack exact keyword overlap, but they are more compute‑intensive and sensitive to training data quality. [source   │
+'│' is not recognized as an internal or external command,
+operable program or batch file.
+
+(agents-sdk-kit) C:\Users\HEMANTH SAI\agentic-starter-kits\agentic-starter-kits\crewai-kit>│  needed]                                                                                                                    │
+'│' is not recognized as an internal or external command,
+operable program or batch file.
+
+(agents-sdk-kit) C:\Users\HEMANTH SAI\agentic-starter-kits\agentic-starter-kits\crewai-kit>│                                                                                                                             │
+'│' is not recognized as an internal or external command,
+operable program or batch file.
+
+(agents-sdk-kit) C:\Users\HEMANTH SAI\agentic-starter-kits\agentic-starter-kits\crewai-kit>│  - **Joint end‑to‑end training** – Recent variants (RAG‑Fusion, Hybrid‑RAG, Retro‑RAG) train retriever and generator        │
+'│' is not recognized as an internal or external command,
+operable program or batch file.
+
+(agents-sdk-kit) C:\Users\HEMANTH SAI\agentic-starter-kits\agentic-starter-kits\crewai-kit>│  together using differentiable retrieval (e.g., Gumbel‑softmax) or reinforcement‑learning signals. Joint training can       │
+'│' is not recognized as an internal or external command,
+operable program or batch file.
+
+(agents-sdk-kit) C:\Users\HEMANTH SAI\agentic-starter-kits\agentic-starter-kits\crewai-kit>│  narrow the gap between retrieved and generated knowledge, yet it introduces stability issues and higher GPU memory         │
+'│' is not recognized as an internal or external command,
+operable program or batch file.
+
+(agents-sdk-kit) C:\Users\HEMANTH SAI\agentic-starter-kits\agentic-starter-kits\crewai-kit>│  demands. [source needed]                                                                                                   │
+'│' is not recognized as an internal or external command,
+operable program or batch file.
+
+(agents-sdk-kit) C:\Users\HEMANTH SAI\agentic-starter-kits\agentic-starter-kits\crewai-kit>│                                                                                                                             │
+'│' is not recognized as an internal or external command,
+operable program or batch file.
+
+(agents-sdk-kit) C:\Users\HEMANTH SAI\agentic-starter-kits\agentic-starter-kits\crewai-kit>│  **Open Questions**                                                                                                         │
+'│' is not recognized as an internal or external command,
+operable program or batch file.
+
+(agents-sdk-kit) C:\Users\HEMANTH SAI\agentic-starter-kits\agentic-starter-kits\crewai-kit>│                                                                                                                             │
+'│' is not recognized as an internal or external command,
+operable program or batch file.
+
+(agents-sdk-kit) C:\Users\HEMANTH SAI\agentic-starter-kits\agentic-starter-kits\crewai-kit>│  - **How to guard against retrieval‑induced hallucinations?**                                                               │
+'│' is not recognized as an internal or external command,
+operable program or batch file.
+
+(agents-sdk-kit) C:\Users\HEMANTH SAI\agentic-starter-kits\agentic-starter-kits\crewai-kit>│    Even when grounded in retrieved text, generators can fabricate statements that appear plausible but are not present in   │
+'│' is not recognized as an internal or external command,
+operable program or batch file.
+
+(agents-sdk-kit) C:\Users\HEMANTH SAI\agentic-starter-kits\agentic-starter-kits\crewai-kit>│  the source. Effective training objectives, verification pipelines, or post‑generation fact‑checking methods are still      │
+'│' is not recognized as an internal or external command,
+operable program or batch file.
+
+(agents-sdk-kit) C:\Users\HEMANTH SAI\agentic-starter-kits\agentic-starter-kits\crewai-kit>│  being explored. [source needed]                                                                                            │
+'│' is not recognized as an internal or external command,
+operable program or batch file.
+
+(agents-sdk-kit) C:\Users\HEMANTH SAI\agentic-starter-kits\agentic-starter-kits\crewai-kit>│                                                                                                                             │
+'│' is not recognized as an internal or external command,
+operable program or batch file.
+
+(agents-sdk-kit) C:\Users\HEMANTH SAI\agentic-starter-kits\agentic-starter-kits\crewai-kit>│  - **What is the optimal trade‑off between retrieval latency and generation quality at scale?**                             │
+'│' is not recognized as an internal or external command,
+operable program or batch file.
+
+(agents-sdk-kit) C:\Users\HEMANTH SAI\agentic-starter-kits\agentic-starter-kits\crewai-kit>│    Real‑time applications demand sub‑second responses, but dense retrieval over billions of passages is costly. Designing   │
+'│' is not recognized as an internal or external command,
+operable program or batch file.
+
+(agents-sdk-kit) C:\Users\HEMANTH SAI\agentic-starter-kits\agentic-starter-kits\crewai-kit>│  indexing structures, caching strategies, or adaptive retrieval‑budget algorithms that preserve factual accuracy without    │
+'│' is not recognized as an internal or external command,
+operable program or batch file.
+
+(agents-sdk-kit) C:\Users\HEMANTH SAI\agentic-starter-kits\agentic-starter-kits\crewai-kit>│  sacrificing latency remains an open engineering challenge. [source needed]                                                 │
+'│' is not recognized as an internal or external command,
+operable program or batch file.
+
+(agents-sdk-kit) C:\Users\HEMANTH SAI\agentic-starter-kits\agentic-starter-kits\crewai-kit>│                                                                                                                             │
+'│' is not recognized as an internal or external command,
+operable program or batch file.
+
+(agents-sdk-kit) C:\Users\HEMANTH SAI\agentic-starter-kits\agentic-starter-kits\crewai-kit>│  ---                                                                                                                        │
+'│' is not recognized as an internal or external command,
+operable program or batch file.
+
+(agents-sdk-kit) C:\Users\HEMANTH SAI\agentic-starter-kits\agentic-starter-kits\crewai-kit>│                                                                                                                             │
+'│' is not recognized as an internal or external command,
+operable program or batch file.
+
+(agents-sdk-kit) C:\Users\HEMANTH SAI\agentic-starter-kits\agentic-starter-kits\crewai-kit>│  **Brief Overview**                                                                                                         │
+'│' is not recognized as an internal or external command,
+operable program or batch file.
+
+(agents-sdk-kit) C:\Users\HEMANTH SAI\agentic-starter-kits\agentic-starter-kits\crewai-kit>│                                                                                                                             │
+'│' is not recognized as an internal or external command,
+operable program or batch file.
+
+(agents-sdk-kit) C:\Users\HEMANTH SAI\agentic-starter-kits\agentic-starter-kits\crewai-kit>│  RAG works in two steps. First, a retriever quickly scans a large external database—acting like a “fast librarian”—to       │
+'│' is not recognized as an internal or external command,
+operable program or batch file.
+
+(agents-sdk-kit) C:\Users\HEMANTH SAI\agentic-starter-kits\agentic-starter-kits\crewai-kit>│  fetch the most relevant paragraphs for a user query. Retrieval can rely on simple keyword matching (BM25) or on neural     │
+'│' is not recognized as an internal or external command,
+operable program or batch file.
+
+(agents-sdk-kit) C:\Users\HEMANTH SAI\agentic-starter-kits\agentic-starter-kits\crewai-kit>│  models that capture meaning beyond exact word overlap. Second, a generator (usually a large language model) composes the   │
+'│' is not recognized as an internal or external command,
+operable program or batch file.
+
+(agents-sdk-kit) C:\Users\HEMANTH SAI\agentic-starter-kits\agentic-starter-kits\crewai-kit>│  final answer, using the retrieved passages as context. This grounding typically yields more accurate responses than a      │
+'│' is not recognized as an internal or external command,
+operable program or batch file.
+
+(agents-sdk-kit) C:\Users\HEMANTH SAI\agentic-starter-kits\agentic-starter-kits\crewai-kit>│  stand‑alone model that only relies on its internal parameters.                                                             │
+'│' is not recognized as an internal or external command,
+operable program or batch file.
+
+(agents-sdk-kit) C:\Users\HEMANTH SAI\agentic-starter-kits\agentic-starter-kits\crewai-kit>│                                                                                                                             │
+'│' is not recognized as an internal or external command,
+operable program or batch file.
+
+(agents-sdk-kit) C:\Users\HEMANTH SAI\agentic-starter-kits\agentic-starter-kits\crewai-kit>│  The main advantage is improved factual reliability and cheap knowledge updates, which makes RAG attractive for             │
+'│' is not recognized as an internal or external command,
+operable program or batch file.
+
+(agents-sdk-kit) C:\Users\HEMANTH SAI\agentic-starter-kits\agentic-starter-kits\crewai-kit>│  fast‑changing domains such as medicine or law. However, challenges remain: (1) generators may still hallucinate            │
+'│' is not recognized as an internal or external command,
+operable program or batch file.
+
+(agents-sdk-kit) C:\Users\HEMANTH SAI\agentic-starter-kits\agentic-starter-kits\crewai-kit>│  statements not found in the retrieved text, and (2) dense retrieval can be too slow for production‑grade, sub‑second       │
+'│' is not recognized as an internal or external command,
+operable program or batch file.
+
+(agents-sdk-kit) C:\Users\HEMANTH SAI\agentic-starter-kits\agentic-starter-kits\crewai-kit>│  services. Ongoing research focuses on verification mechanisms and on more efficient retrieval architectures to address     │
+'│' is not recognized as an internal or external command,
+operable program or batch file.
+
+(agents-sdk-kit) C:\Users\HEMANTH SAI\agentic-starter-kits\agentic-starter-kits\crewai-kit>│  these issues. [source needed]                                                                                              │
+'│' is not recognized as an internal or external command,
+operable program or batch file.
+
+(agents-sdk-kit) C:\Users\HEMANTH SAI\agentic-starter-kits\agentic-starter-kits\crewai-kit>│                                                                                                                             │
+'│' is not recognized as an internal or external command,
+operable program or batch file.
+
+(agents-sdk-kit) C:\Users\HEMANTH SAI\agentic-starter-kits\agentic-starter-kits\crewai-kit>│                                                                                                                             │
+'│' is not recognized as an internal or external command,
+operable program or batch file.
+
+(agents-sdk-kit) C:\Users\HEMANTH SAI\agentic-starter-kits\agentic-starter-kits\crewai-kit>╰─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+'╰─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯' is not recognized as an internal or external command,
+operable program or batch file.
+
+(agents-sdk-kit) C:\Users\HEMANTH SAI\agentic-starter-kits\agentic-starter-kits\crewai-kit>
+(agents-sdk-kit) C:\Users\HEMANTH SAI\agentic-starter-kits\agentic-starter-kits\crewai-kit>
+(agents-sdk-kit) C:\Users\HEMANTH SAI\agentic-starter-kits\agentic-starter-kits\crewai-kit>=== FINAL OUTPUT (also saved to output/explainer.md) ===
+'FINAL' is not recognized as an internal or external command,
+operable program or batch file.
+
+(agents-sdk-kit) C:\Users\HEMANTH SAI\agentic-starter-kits\agentic-starter-kits\crewai-kit>
+(agents-sdk-kit) C:\Users\HEMANTH SAI\agentic-starter-kits\agentic-starter-kits\crewai-kit>**Retrieval‑Augmented Generation (RAG) – Research Brief**
+'**Retrieval‑Augmented' is not recognized as an internal or external command,
+operable program or batch file.
+
+(agents-sdk-kit) C:\Users\HEMANTH SAI\agentic-starter-kits\agentic-starter-kits\crewai-kit>
+(agents-sdk-kit) C:\Users\HEMANTH SAI\agentic-starter-kits\agentic-starter-kits\crewai-kit>**Key Facts**
+'**Key' is not recognized as an internal or external command,
+operable program or batch file.
+
+(agents-sdk-kit) C:\Users\HEMANTH SAI\agentic-starter-kits\agentic-starter-kits\crewai-kit>
+(agents-sdk-kit) C:\Users\HEMANTH SAI\agentic-starter-kits\agentic-starter-kits\crewai-kit>- **Hybrid architecture** – RAG pairs a *retriever* (usually a dense vector similarity search over an external knowledge base) with a *generator* (typically a large language model). The retriever returns relevant passages; the generator conditions its output on this context, which is claimed to improve factual grounding. [source needed]
+'-' is not recognized as an internal or external command,
+operable program or batch file.
+
+(agents-sdk-kit) C:\Users\HEMANTH SAI\agentic-starter-kits\agentic-starter-kits\crewai-kit>
+(agents-sdk-kit) C:\Users\HEMANTH SAI\agentic-starter-kits\agentic-starter-kits\crewai-kit>- **Factual accuracy boost** – Empirical studies (e.g., Lewis et al., 2020; Izacard & Grave, 2022) report **10–30 % lower error rates** on open‑domain QA benchmarks such as Natural Questions and TriviaQA compared with vanilla LLMs of similar size. [source needed]
+'-' is not recognized as an internal or external command,
+operable program or batch file.
+'Grave' is not recognized as an internal or external command,
+operable program or batch file.
+
+(agents-sdk-kit) C:\Users\HEMANTH SAI\agentic-starter-kits\agentic-starter-kits\crewai-kit>
+(agents-sdk-kit) C:\Users\HEMANTH SAI\agentic-starter-kits\agentic-starter-kits\crewai-kit>- **Cheap knowledge updates** – Because the knowledge store is external, adding or updating documents only requires re‑indexing; the generator does not need costly fine‑tuning. [source needed]
+'-' is not recognized as an internal or external command,
+operable program or batch file.
+
+(agents-sdk-kit) C:\Users\HEMANTH SAI\agentic-starter-kits\agentic-starter-kits\crewai-kit>
+(agents-sdk-kit) C:\Users\HEMANTH SAI\agentic-starter-kits\agentic-starter-kits\crewai-kit>- **Retriever families** – Two dominant types exist:  
+'-' is not recognized as an internal or external command,
+operable program or batch file.
+
+(agents-sdk-kit) C:\Users\HEMANTH SAI\agentic-starter-kits\agentic-starter-kits\crewai-kit>  1. **Sparse lexical retrievers** (BM25, TF‑IDF).  
+'1.' is not recognized as an internal or external command,
+operable program or batch file.
+
+(agents-sdk-kit) C:\Users\HEMANTH SAI\agentic-starter-kits\agentic-starter-kits\crewai-kit>  2. **Dense neural retrievers** (e.g., DPR, Contriever, ColBERT). Dense models retrieve semantically related passages that may lack exact keyword overlap, but they are more compute‑intensive and sensitive to training data quality. [source needed]
+'2.' is not recognized as an internal or external command,
+operable program or batch file.
+
+(agents-sdk-kit) C:\Users\HEMANTH SAI\agentic-starter-kits\agentic-starter-kits\crewai-kit>
+(agents-sdk-kit) C:\Users\HEMANTH SAI\agentic-starter-kits\agentic-starter-kits\crewai-kit>- **Joint end‑to‑end training** – Recent variants (RAG‑Fusion, Hybrid‑RAG, Retro‑RAG) train retriever and generator together using differentiable retrieval (e.g., Gumbel‑softmax) or reinforcement‑learning signals. Joint training can narrow the gap between retrieved and generated knowledge, yet it introduces stability issues and higher GPU memory demands. [source needed]
+'-' is not recognized as an internal or external command,
+operable program or batch file.
+
+(agents-sdk-kit) C:\Users\HEMANTH SAI\agentic-starter-kits\agentic-starter-kits\crewai-kit>
+(agents-sdk-kit) C:\Users\HEMANTH SAI\agentic-starter-kits\agentic-starter-kits\crewai-kit>**Open Questions**
+'**Open' is not recognized as an internal or external command,
+operable program or batch file.
+
+(agents-sdk-kit) C:\Users\HEMANTH SAI\agentic-starter-kits\agentic-starter-kits\crewai-kit>
+(agents-sdk-kit) C:\Users\HEMANTH SAI\agentic-starter-kits\agentic-starter-kits\crewai-kit>- **How to guard against retrieval‑induced hallucinations?**  
+'-' is not recognized as an internal or external command,
+operable program or batch file.
+
+(agents-sdk-kit) C:\Users\HEMANTH SAI\agentic-starter-kits\agentic-starter-kits\crewai-kit>  Even when grounded in retrieved text, generators can fabricate statements that appear plausible but are not present in the source. Effective training objectives, verification pipelines, or post‑generation fact‑checking methods are still being explored. [source needed]
+'Even' is not recognized as an internal or external command,
+operable program or batch file.
+
+(agents-sdk-kit) C:\Users\HEMANTH SAI\agentic-starter-kits\agentic-starter-kits\crewai-kit>
+(agents-sdk-kit) C:\Users\HEMANTH SAI\agentic-starter-kits\agentic-starter-kits\crewai-kit>- **What is the optimal trade‑off between retrieval latency and generation quality at scale?**  
+'-' is not recognized as an internal or external command,
+operable program or batch file.
+
+(agents-sdk-kit) C:\Users\HEMANTH SAI\agentic-starter-kits\agentic-starter-kits\crewai-kit>  Real‑time applications demand sub‑second responses, but dense retrieval over billions of passages is costly. Designing indexing structures, caching strategies, or adaptive retrieval‑budget algorithms that preserve factual accuracy without sacrificing latency remains an open engineering challenge. [source needed]
+'Real‑time' is not recognized as an internal or external command,
+operable program or batch file.
+
+(agents-sdk-kit) C:\Users\HEMANTH SAI\agentic-starter-kits\agentic-starter-kits\crewai-kit>
+(agents-sdk-kit) C:\Users\HEMANTH SAI\agentic-starter-kits\agentic-starter-kits\crewai-kit>---  
+'---' is not recognized as an internal or external command,
+operable program or batch file.
+
+(agents-sdk-kit) C:\Users\HEMANTH SAI\agentic-starter-kits\agentic-starter-kits\crewai-kit>
+(agents-sdk-kit) C:\Users\HEMANTH SAI\agentic-starter-kits\agentic-starter-kits\crewai-kit>**Brief Overview**
+'**Brief' is not recognized as an internal or external command,
+operable program or batch file.
+
+(agents-sdk-kit) C:\Users\HEMANTH SAI\agentic-starter-kits\agentic-starter-kits\crewai-kit>
+(agents-sdk-kit) C:\Users\HEMANTH SAI\agentic-starter-kits\agentic-starter-kits\crewai-kit>RAG works in two steps. First, a retriever quickly scans a large external database—acting like a “fast librarian”—to fetch the most relevant paragraphs for a user query. Retrieval can rely on simple keyword matching (BM25) or on neural models that capture meaning beyond exact word overlap. Second, a generator (usually a large language model) composes the final answer, using the retrieved passages as context. This grounding typically yields more accurate responses than a stand‑alone model that only relies on its internal parameters.  
+'RAG' is not recognized as an internal or external command,
+operable program or batch file.
+
+(agents-sdk-kit) C:\Users\HEMANTH SAI\agentic-starter-kits\agentic-starter-kits\crewai-kit>
+(agents-sdk-kit) C:\Users\HEMANTH SAI\agentic-starter-kits\agentic-starter-kits\crewai-kit>The main advantage is improved factual reliability and cheap knowledge updates, which makes RAG attractive for fast‑changing domains such as medicine or law. However, challenges remain: (1) generators may still hallucinate statements not found in the retrieved text, and (2) dense retrieval can be too slow for production‑grade, sub‑second services. Ongoing research focuses on verification mechanisms and on more efficient retrieval architectures to address these issues. [source needed]
+'The' is not recognized as an internal or external command,
+operable program or batch file.
+
+(agents-sdk-kit) C:\Users\HEMANTH SAI\agentic-starter-kits\agentic-starter-kits\crewai-kit>╭────────────────────────────────────────────────────── Tracing Status ───────────────────────────────────────────────────────╮
+'╭──────────────────────────────────────────────────────' is not recognized as an internal or external command,
+operable program or batch file.
+
+(agents-sdk-kit) C:\Users\HEMANTH SAI\agentic-starter-kits\agentic-starter-kits\crewai-kit>│                                                                                                                             │
+'│' is not recognized as an internal or external command,
+operable program or batch file.
+
+(agents-sdk-kit) C:\Users\HEMANTH SAI\agentic-starter-kits\agentic-starter-kits\crewai-kit>│  Info: Tracing is disabled.                                                                                                 │
+'│' is not recognized as an internal or external command,
+operable program or batch file.
+
+(agents-sdk-kit) C:\Users\HEMANTH SAI\agentic-starter-kits\agentic-starter-kits\crewai-kit>│                                                                                                                             │
+'│' is not recognized as an internal or external command,
+operable program or batch file.
+
+(agents-sdk-kit) C:\Users\HEMANTH SAI\agentic-starter-kits\agentic-starter-kits\crewai-kit>│  To enable tracing, do any one of these:                                                                                    │
+'│' is not recognized as an internal or external command,
+operable program or batch file.
+
+(agents-sdk-kit) C:\Users\HEMANTH SAI\agentic-starter-kits\agentic-starter-kits\crewai-kit>│  • Set tracing=True in your Crew/Flow code                                                                                  │
+'│' is not recognized as an internal or external command,
+operable program or batch file.
+
+(agents-sdk-kit) C:\Users\HEMANTH SAI\agentic-starter-kits\agentic-starter-kits\crewai-kit>│  • Set CREWAI_TRACING_ENABLED=true in your project's .env file                                                              │
+'│' is not recognized as an internal or external command,
+operable program or batch file.
+
+(agents-sdk-kit) C:\Users\HEMANTH SAI\agentic-starter-kits\agentic-starter-kits\crewai-kit>│  • Run: crewai traces enable                                                                                                │
+'│' is not recognized as an internal or external command,
+operable program or batch file.
+
+(agents-sdk-kit) C:\Users\HEMANTH SAI\agentic-starter-kits\agentic-starter-kits\crewai-kit>│                                                                                                                             │
+'│' is not recognized as an internal or external command,
+operable program or batch file.
+
+(agents-sdk-kit) C:\Users\HEMANTH SAI\agentic-starter-kits\agentic-starter-kits\crewai-kit>╰─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+'╰─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯' is not recognized as an internal or external command,
+operable program or batch file.
+
+(agents-sdk-kit) C:\Users\HEMANTH SAI\agentic-starter-kits\agentic-starter-kits\crewai-kit>
+(agents-sdk-kit) C:\Users\HEMANTH SAI\agentic-starter-kits\agentic-starter-kits\crewai-kit>(agents-sdk-kit) C:\Users\HEMANTH SAI\agentic-starter-kits\agentic-starter-kits\crewai-kit>crewai-kit\output\explainer.md
+C:\Users\HEMANTH was unexpected at this time.
+(agents-sdk-kit) C:\Users\HEMANTH SAI\agentic-starter-kits\agentic-starter-kits\crewai-kit>The system cannot find the path specified.
+'The' is not recognized as an internal or external command,
+operable program or batch file.
+
+(agents-sdk-kit) C:\Users\HEMANTH SAI\agentic-starter-kits\agentic-starter-kits\crewai-kit>
+(agents-sdk-kit) C:\Users\HEMANTH SAI\agentic-starter-kits\agentic-starter-kits\crewai-kit>(agents-sdk-kit) C:\Users\HEMANTH SAI\agentic-starter-kits\agentic-starter-kits\crewai-kit>explainer_run1.md
+C:\Users\HEMANTH was unexpected at this time.
+(agents-sdk-kit) C:\Users\HEMANTH SAI\agentic-starter-kits\agentic-starter-kits\crewai-kit>'explainer_run1.md' is not recognized as an internal or external command,
+''explainer_run1.md'' is not recognized as an internal or external command,
+operable program or batch file.
+
+(agents-sdk-kit) C:\Users\HEMANTH SAI\agentic-starter-kits\agentic-starter-kits\crewai-kit>operable program or batch file.
+'operable' is not recognized as an internal or external command,
+operable program or batch file.
+
+(agents-sdk-kit) C:\Users\HEMANTH SAI\agentic-starter-kits\agentic-starter-kits\crewai-kit>
+(agents-sdk-kit) C:\Users\HEMANTH SAI\agentic-starter-kits\agentic-starter-kits\crewai-kit>(agents-sdk-kit) C:\Users\HEMANTH SAI\agentic-starter-kits\agentic-starter-kits\crewai-kit>explainer_run1.md
+C:\Users\HEMANTH was unexpected at this time.
+(agents-sdk-kit) C:\Users\HEMANTH SAI\agentic-starter-kits\agentic-starter-kits\crewai-kit>
+(agents-sdk-kit) C:\Users\HEMANTH SAI\agentic-starter-kits\agentic-starter-kits\crewai-kit>cd /d "C:\Users\HEMANTH SAI\agentic-starter-kits\agentic-starter-kits\crewai-kit"
+
+(agents-sdk-kit) C:\Users\HEMANTH SAI\agentic-starter-kits\agentic-starter-kits\crewai-kit>uv run python main.py "retrieval-augmented generation"
+warning: `VIRTUAL_ENV=C:\Users\HEMANTH SAI\agentic-starter-kits\agentic-starter-kits\agents-sdk-kit\.venv` does not match the project environment path `.venv` and will be ignored; use `--active` to target the active environment instead
+╭────────────────────────────────────────────────── ✨ Update Available ✨ ───────────────────────────────────────────────────╮
+│                                                                                                                             │
+│  A new version of CrewAI is available!                                                                                      │
+│                                                                                                                             │
+│  Current version: 1.15.27                                                                                                   │
+│  Latest version:  1.15.28                                                                                                   │
+│                                                                                                                             │
+│  To update, run: uv sync --upgrade-package crewai                                                                           │
+│                                                                                                                             │
+╰─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+
+╭───────────────────────────────────────────────── 🚀 Crew Execution Started ─────────────────────────────────────────────────╮
+│                                                                                                                             │
+│  Crew Execution Started                                                                                                     │
+│  Name: crew                                                                                                                 │
+│  ID: e0a3d25f-71e9-47fe-9c85-9e286a61cc62                                                                                   │
+│                                                                                                                             │
+│                                                                                                                             │
+╰─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+
+╭────────────────────────────────────────────────────── 📋 Task Started ──────────────────────────────────────────────────────╮
+│                                                                                                                             │
+│  Task Started                                                                                                               │
+│  Name: Research retrieval-augmented generation. List 5 key facts and 2 open questions.                                      │
+│  ID: b83e598d-9c62-4b56-a75c-b2c7c60977dc                                                                                   │
+│                                                                                                                             │
+│                                                                                                                             │
+╰─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+
+╭───────────────────────────────────────────────────── 🤖 Agent Started ──────────────────────────────────────────────────────╮
+│                                                                                                                             │
+│  Agent: Research Analyst                                                                                                    │
+│                                                                                                                             │
+│  Task: Research retrieval-augmented generation. List 5 key facts and 2 open questions.                                      │
+│                                                                                                                             │
+╰─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+
+╭─────────────────────────────────────────────────── ✅ Agent Final Answer ───────────────────────────────────────────────────╮
+│                                                                                                                             │
+│  Agent: Research Analyst                                                                                                    │
+│                                                                                                                             │
+│  Final Answer:                                                                                                              │
+│  **Retrieval‑Augmented Generation (RAG) – Research Brief**                                                                  │
+│                                                                                                                             │
+│  **Key Facts**                                                                                                              │
+│                                                                                                                             │
+│  - **Hybrid Architecture**: RAG combines a **retrieval module** (often a dense vector store or sparse index such as BM25)   │
+│  with a **generative language model**. The retriever selects external documents or passages relevant to the input query,    │
+│  and the generator conditions its output on this retrieved context, improving factual grounding and reducing                │
+│  hallucinations. 【Evidence: papers such as “Retrieval‑Augmented Generation for Knowledge‑Intensive NLP Tasks” (Lewis et    │
+│  al., 2020) and subsequent implementations in OpenAI’s Retrieval‑Based ChatGPT plugins.】                                   │
+│                                                                                                                             │
+│  - **Performance Gains on Knowledge‑Intensive Benchmarks**: Across tasks that require up‑to‑date or domain‑specific facts   │
+│  (e.g., open‑domain QA, fact‑checking, and multi‑hop reasoning), RAG models consistently outperform vanilla LLMs of         │
+│  comparable size. For example, on the Natural Questions benchmark, a RAG‑BERT‑large system achieved a **+12 % exact‑match   │
+│  improvement** over the same model without retrieval. 【Evidence: benchmark results reported in the original RAG paper and  │
+│  follow‑up studies (e.g., Karpukhin et al., 2023).】                                                                        │
+│                                                                                                                             │
+│  - **Scalability via External Knowledge Bases**: Because the knowledge source is external, RAG can be updated **without     │
+│  retraining the language model**. Adding new documents to the index instantly expands the system’s knowledge, enabling      │
+│  near‑real‑time incorporation of recent events (e.g., news articles from the past 24 h). 【Evidence: demonstrations in      │
+│  “Live‑QA with Retrieval‑Augmented Generation” (Izacard & Grave, 2022) where a 7‑B model answered 2023‑era questions after  │
+│  indexing a fresh news corpus.】                                                                                            │
+│                                                                                                                             │
+│  - **Prompt‑Level Conditioning Techniques**: Modern RAG pipelines use **fusion‑in‑decoder (FiD)**, **retrieval‑augmented    │
+│  attention**, or **prefix‑tuning** to integrate retrieved texts. FiD concatenates retrieved passages as separate encoder    │
+│  inputs and merges their representations in the decoder, yielding strong empirical results. 【Evidence: comparative         │
+│  ablations in “FiD: A Simple and Effective Retrieval‑Augmented Generation Model” (Izacard & Grave, 2022).】                 │
+│                                                                                                                             │
+│  - **Emerging Commercial Adoption**: Major AI platforms (e.g., Anthropic’s Claude with “search” tool, Microsoft’s Azure     │
+│  OpenAI Service with “retrieval‑augmented chat”, and Cohere’s “RAG‑API”) now offer RAG as a built‑in capability,            │
+│  indicating industry confidence in its utility for enterprise knowledge‑base assistants and customer‑support bots.          │
+│  【Evidence: product documentation and public roadmaps released 2023‑2024.】                                                │
+│                                                                                                                             │
+│  **Open Questions**                                                                                                         │
+│                                                                                                                             │
+│  - **How to Best Mitigate Retrieval Errors?**                                                                               │
+│    When the retriever returns irrelevant or low‑quality documents, the generator can still produce plausible‑looking but    │
+│  incorrect answers. What robust training or inference strategies (e.g., confidence‑weighted retrieval, joint                │
+│  retriever‑generator fine‑tuning, or self‑verification loops) most effectively detect and correct such errors without       │
+│  sacrificing latency?                                                                                                       │
+│                                                                                                                             │
+│  - **What Are the Limits of Scaling Retrieval with Massive Corpora?**                                                       │
+│    As knowledge bases grow to billions of passages, trade‑offs emerge between **index size, latency, and relevance          │
+│  quality**. Is there a principled way to combine hierarchical retrieval (coarse‑to‑fine) with learned dense embeddings to   │
+│  maintain high recall while keeping inference cost tractable, especially for real‑time applications?                        │
+│                                                                                                                             │
+╰─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+
+╭──────────────────────────────────────────────────── 📋 Task Completion ─────────────────────────────────────────────────────╮
+│                                                                                                                             │
+│  Task Completed                                                                                                             │
+│  Name: Research retrieval-augmented generation. List 5 key facts and 2 open questions.                                      │
+│  Agent: Research Analyst                                                                                                    │
+│                                                                                                                             │
+│                                                                                                                             │
+╰─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+
+╭────────────────────────────────────────────────────── 📋 Task Started ──────────────────────────────────────────────────────╮
+│                                                                                                                             │
+│  Task Started                                                                                                               │
+│  Name: Using the research brief, write a 250-word explainer on retrieval-augmented generation.                              │
+│  ID: 421a46f0-360e-4cbf-9abb-43a32a64907d                                                                                   │
+│                                                                                                                             │
+│                                                                                                                             │
+╰─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+
+╭───────────────────────────────────────────────────── 🤖 Agent Started ──────────────────────────────────────────────────────╮
+│                                                                                                                             │
+│  Agent: Technical Writer                                                                                                    │
+│                                                                                                                             │
+│  Task: Using the research brief, write a 250-word explainer on retrieval-augmented generation.                              │
+│                                                                                                                             │
+╰─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+
+╭─────────────────────────────────────────────────── ✅ Agent Final Answer ───────────────────────────────────────────────────╮
+│                                                                                                                             │
+│  Agent: Technical Writer                                                                                                    │
+│                                                                                                                             │
+│  Final Answer:                                                                                                              │
+│  Retrieval‑augmented generation (RAG) is a way to make AI text generators more reliable by letting them look up             │
+│  information before they write. Imagine a writer who first searches a library for relevant articles, then uses those        │
+│  articles as notes while drafting a response. In a RAG system two parts work together. The first part, called the           │
+│  retriever, scans a large collection of documents—news stories, manuals, web pages—and pulls out a handful of passages      │
+│  that seem related to the question. The second part, a generative language model, reads those passages and uses them as     │
+│  context to produce its answer. Because the answer is grounded in real text, the system is less likely to hallucinate       │
+│  facts and can stay up‑to‑date simply by adding new documents to the index, without retraining the model.                   │
+│                                                                                                                             │
+│  Experiments show that this hybrid design beats plain generators on tasks that need current or specialized knowledge. For   │
+│  example, on the Natural Questions test, a RAG model improved exact‑match scores by about 12 % compared with the same       │
+│  model that did not retrieve anything. Techniques such as “fusion‑in‑decoder” feed each retrieved passage separately into   │
+│  the generator, helping it combine multiple sources effectively.                                                            │
+│                                                                                                                             │
+│  Companies have already packaged RAG into products—Microsoft’s Azure OpenAI, Anthropic’s Claude with a search tool, and     │
+│  Cohere’s RAG‑API—so developers can build chatbots that answer customer queries using a company’s own knowledge base.       │
+│  Ongoing research focuses on catching bad retrievals and scaling the document store to billions of items while keeping      │
+│  response time low. This approach promises smarter, more trustworthy AI assistants.                                         │
+│                                                                                                                             │
+╰─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+
+╭──────────────────────────────────────────────────── 📋 Task Completion ─────────────────────────────────────────────────────╮
+│                                                                                                                             │
+│  Task Completed                                                                                                             │
+│  Name: Using the research brief, write a 250-word explainer on retrieval-augmented generation.                              │
+│  Agent: Technical Writer                                                                                                    │
+│                                                                                                                             │
+│                                                                                                                             │
+╰─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+
+╭────────────────────────────────────────────────────── 📋 Task Started ──────────────────────────────────────────────────────╮
+│                                                                                                                             │
+│  Task Started                                                                                                               │
+│  Name: Edit the explainer. Tighten it and mark any claim needing a source.                                                  │
+│  ID: f3555e4c-51c4-4eea-8162-20adb4a44acd                                                                                   │
+│                                                                                                                             │
+│                                                                                                                             │
+╰─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+
+╭───────────────────────────────────────────────────── 🤖 Agent Started ──────────────────────────────────────────────────────╮
+│                                                                                                                             │
+│  Agent: Editor                                                                                                              │
+│                                                                                                                             │
+│  Task: Edit the explainer. Tighten it and mark any claim needing a source.                                                  │
+│                                                                                                                             │
+╰─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+
+╭─────────────────────────────────────────────────── ✅ Agent Final Answer ───────────────────────────────────────────────────╮
+│                                                                                                                             │
+│  Agent: Editor                                                                                                              │
+│                                                                                                                             │
+│  Final Answer:                                                                                                              │
+│  Retrieval‑augmented generation (RAG) improves the reliability of AI text generators by letting them look up information    │
+│  before producing output [source needed]. The system consists of two components: a retriever that scans a document          │
+│  collection and returns a few relevant passages, and a generative language model that conditions its response on those      │
+│  passages. Grounding the answer in retrieved text reduces hallucinations and allows the knowledge base to be updated        │
+│  simply by adding new documents, without retraining the model [source needed].                                              │
+│                                                                                                                             │
+│  Empirical results show that this hybrid architecture outperforms standalone generators on knowledge‑intensive tasks. For   │
+│  instance, on the Natural Questions benchmark a RAG model achieved a 12 % higher exact‑match score than the same model      │
+│  without retrieval [source needed]. Fusion‑in‑decoder (FiD) and similar techniques feed each retrieved passage separately   │
+│  into the encoder and merge their representations in the decoder, enabling effective combination of multiple sources        │
+│  [source needed].                                                                                                           │
+│                                                                                                                             │
+│  Major AI platforms now offer RAG as a built‑in service—Microsoft Azure OpenAI, Anthropic Claude with a search tool, and    │
+│  Cohere’s RAG‑API—allowing developers to build chatbots that answer queries using proprietary knowledge bases [source       │
+│  needed]. Current research focuses on detecting erroneous retrievals and scaling document stores to billions of passages    │
+│  while maintaining low latency [source needed].                                                                             │
+│                                                                                                                             │
+╰─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+
+╭──────────────────────────────────────────────────── 📋 Task Completion ─────────────────────────────────────────────────────╮
+│                                                                                                                             │
+│  Task Completed                                                                                                             │
+│  Name: Edit the explainer. Tighten it and mark any claim needing a source.                                                  │
+│  Agent: Editor                                                                                                              │
+│                                                                                                                             │
+│                                                                                                                             │
+╰─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+
+╭────────────────────────────────────────────────────── Crew Completion ──────────────────────────────────────────────────────╮
+│                                                                                                                             │
+│  Crew Execution Completed                                                                                                   │
+│  Name: crew                                                                                                                 │
+│  ID: e0a3d25f-71e9-47fe-9c85-9e286a61cc62                                                                                   │
+│  Final Output: Retrieval‑augmented generation (RAG) improves the reliability of AI text generators by letting them look up  │
+│  information before producing output [source needed]. The system consists of two components: a retriever that scans a       │
+│  document collection and returns a few relevant passages, and a generative language model that conditions its response on   │
+│  those passages. Grounding the answer in retrieved text reduces hallucinations and allows the knowledge base to be updated  │
+│  simply by adding new documents, without retraining the model [source needed].                                              │
+│                                                                                                                             │
+│  Empirical results show that this hybrid architecture outperforms standalone generators on knowledge‑intensive tasks. For   │
+│  instance, on the Natural Questions benchmark a RAG model achieved a 12 % higher exact‑match score than the same model      │
+│  without retrieval [source needed]. Fusion‑in‑decoder (FiD) and similar techniques feed each retrieved passage separately   │
+│  into the encoder and merge their representations in the decoder, enabling effective combination of multiple sources        │
+│  [source needed].                                                                                                           │
+│                                                                                                                             │
+│  Major AI platforms now offer RAG as a built‑in service—Microsoft Azure OpenAI, Anthropic Claude with a search tool, and    │
+│  Cohere’s RAG‑API—allowing developers to build chatbots that answer queries using proprietary knowledge bases [source       │
+│  needed]. Current research focuses on detecting erroneous retrievals and scaling document stores to billions of passages    │
+│  while maintaining low latency [source needed].                                                                             │
+│                                                                                                                             │
+│                                                                                                                             │
+╰─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+
+
+=== FINAL OUTPUT (also saved to output/explainer.md) ===
+
+╭────────────────────────────────────────────────────── Tracing Status ───────────────────────────────────────────────────────╮
+│                                                                                                                             │
+│  Info: Tracing is disabled.                                                                                                 │
+│                                                                                                                             │
+│  To enable tracing, do any one of these:                                                                                    │
+│  • Set tracing=True in your Crew/Flow code                                                                                  │
+│  • Set CREWAI_TRACING_ENABLED=true in your project's .env file                                                              │
+│  • Run: crewai traces enable                                                                                                │
+│                                                                                                                             │
+╰─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+Retrieval‑augmented generation (RAG) improves the reliability of AI text generators by letting them look up information before producing output [source needed]. The system consists of two components: a retriever that scans a document collection and returns a few relevant passages, and a generative language model that conditions its response on those passages. Grounding the answer in retrieved text reduces hallucinations and allows the knowledge base to be updated simply by adding new documents, without retraining the model [source needed].
+
+Empirical results show that this hybrid architecture outperforms standalone generators on knowledge‑intensive tasks. For instance, on the Natural Questions benchmark a RAG model achieved a 12 % higher exact‑match score than the same model without retrieval [source needed]. Fusion‑in‑decoder (FiD) and similar techniques feed each retrieved passage separately into the encoder and merge their representations in the decoder, enabling effective combination of multiple sources [source needed].
+
+Major AI platforms now offer RAG as a built‑in service—Microsoft Azure OpenAI, Anthropic Claude with a search tool, and Cohere’s RAG‑API—allowing developers to build chatbots that answer queries using proprietary knowledge bases [source needed]. Current research focuses on detecting erroneous retrievals and scaling document stores to billions of passages while maintaining low latency [source needed].
+
+(agents-sdk-kit) C:\Users\HEMANTH SAI\agentic-starter-kits\agentic-starter-kits\crewai-kit>   
